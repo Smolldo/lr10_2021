@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Registraion</title>
+</head>
+<body>
+    <div class="cover">
+        <form name="forma" class="regField">
+            <input required name="fname" id="nam"  type="text" placeholder="LastName">
+            <input required id="lname"  type="text"  placeholder="Secondname">
+            <input required name="login" id="logos" type="text" placeholder="Login">
+            <input required name="password" id="pass" type="password" placeholder="pass">
+            <input required name="passwordC" id="passC" onblur="chekForm()" type="password" placeholder="confirm pass">
+            <input required id="mail" type="email" placeholder="mail">
+            <input required name="sex" type="radio" >Male
+            <input required name="sex" type="radio" >Female
+            <button  class="btn" onclick="chekForm(), fil()" type="button">Send</button>
+        </form>
+    </div>
+    <script src="./scriot/script.js"></script>
+</body>
+</html>

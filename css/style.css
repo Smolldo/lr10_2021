@@ -1,0 +1,13 @@
+.cover{
+    width: 40%;
+    margin: 5% auto;
+}
+
+.regField{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin-bottom: 10px;
+}
